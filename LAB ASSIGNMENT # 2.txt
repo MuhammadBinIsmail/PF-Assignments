@@ -1,0 +1,79 @@
+1.
+START
+INPUT number1
+INPUT number2
+INPUT number3
+IF number1 < number2 and number1 < number3 THEN
+PRINT “Number 1 is the smallest”
+ELSEIF number2 < number1 and number2 < number3 THEN
+	PRINT “Number 2 is the smallest”
+ELSE
+	PRINT “Number 3 is the smallest”
+END
+
+
+
+3.
+START
+INPUT number1
+INPUT number2
+// Asking the operator for multiplication or division operation like “*” “/”
+INPUT operator
+SET operation to number1 operator number2
+PRINT operation
+END
+
+ALGORITHMS
+
+1.
+Ask the user to enter a number.
+Divide the user input by itself and check for the remainder to be equal to zero.
+Divide the user input by 1 and check for the remainder to be equal to zero.
+IF both step 2 and step 3 gives 0 remainder then display “ The number entered is a prime number”
+Check whether the user input is less than or equal to 1, and if it is then display “The number entered is not a prime number”.
+Set iteration for how many possible divisors to check
+If user input modulus divisor == 0
+Display “The number entered is a prime number”.
+If user input modulus divisor is not equal to 0
+Display “The number entered is not a prime number”.
+
+2.
+Day1 is Monday
+Day2 is Tuesday
+Day3 is Wednesday
+Day4 is Thursday
+Day5 is Friday
+Day6 is Saturday
+Day7 is Sunday
+Ask the user to enter a day number between (1-365)
+User input mod 7 is equal to 1
+Display Day1
+User input mod 7 is equal to 2
+Display Day2
+User input mod 7 is equal to 3
+Display Day3
+User input mod 7 is equal to 4
+Display Day4
+User input mod 7 is equal to 5
+Display Day5
+User input mod 7 is equal to 6
+Display Day6
+User input mod 7 is equal to 7
+Display Day7
+
+
+3.
+
+Ask the user enter two numbers as input (number1 and number2) 
+Set GCD equals to 0
+Set divisor equals to 1
+IF (number1 % divisor and number2 % divisor) ==0
+ Then GCD equals to divisor
+Set divisor equals to divisor + 1
+Repeat step 4 till step 6
+Display “The greatest common divisor is:”, GCD
+
+
+
+
+
