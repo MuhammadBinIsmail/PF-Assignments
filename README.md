@@ -1,3 +1,3 @@
-# PF-Assignment-2
+# PF-Assignment
 Flowchart, Pseudocode, and Algorithms
 Algorithms and pseudocode questions.
