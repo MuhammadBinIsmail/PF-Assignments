@@ -4,6 +4,11 @@
 #include <stdio.h>
 void checkingprime(int n)
 {
+    if (n < 2)
+    {
+        printf("\nThe number you have entered is not a prime number");
+        return;
+    }
     int prime = 1;
     for (int i = 2; i < n; i++)
     {
